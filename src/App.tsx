@@ -22,6 +22,7 @@ import { CivicIssue, UserProfile, FunnelState } from "./types";
 import { motion, AnimatePresence } from "motion/react";
 import { AdminTerminal } from "./components/AdminTerminal";
 import { AuthModal } from "./components/AuthModal";
+import HackathonSlides from "./components/HackathonSlides";
 
 export default function App() {
   // 1. Current Session User (Dhruv Gupta, with local storage verification)
@@ -55,6 +56,7 @@ export default function App() {
   const [isAdminMode, setIsAdminMode] = React.useState(false);
   const [isNewIssueModalOpen, setIsNewIssueModalOpen] = React.useState(false);
   const [isAuthModalOpen, setIsAuthModalOpen] = React.useState(false);
+  const [isSlidesOpen, setIsSlidesOpen] = React.useState(false);
 
   // 3. Fetch priorities from server on load
   const fetchPriorities = async () => {
@@ -247,6 +249,7 @@ export default function App() {
             onChangeConstituency={handleConstituencyChange}
             isAdminMode={isAdminMode}
             onToggleAdminMode={setIsAdminMode}
+            onOpenSlides={() => setIsSlidesOpen(true)}
           />
           
           <AdminTerminal 
@@ -265,6 +268,7 @@ export default function App() {
             onChangeConstituency={handleConstituencyChange}
             isAdminMode={isAdminMode}
             onToggleAdminMode={setIsAdminMode}
+            onOpenSlides={() => setIsSlidesOpen(true)}
           />
 
           {/* Core Content Body */}
@@ -433,6 +437,12 @@ export default function App() {
         onSuccess={(updatedProfile) => {
           setUser(updatedProfile);
         }} 
+      />
+
+      {/* Interactive Hackathon Presentation Slideshow */}
+      <HackathonSlides 
+        isOpen={isSlidesOpen} 
+        onClose={() => setIsSlidesOpen(false)} 
       />
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import { Shield, MapPin, Eye, Settings, LogOut, CheckCircle, HelpCircle } from "lucide-react";
+import { Shield, MapPin, Eye, Settings, LogOut, CheckCircle, HelpCircle, Presentation } from "lucide-react";
 import { UserProfile, STATE_CONSTITUENCIES } from "../types";
 
 interface HeaderProps {
@@ -7,13 +7,15 @@ interface HeaderProps {
   onChangeConstituency: (constituency: string) => void;
   isAdminMode: boolean;
   onToggleAdminMode: (admin: boolean) => void;
+  onOpenSlides: () => void;
 }
 
 export default function Header({
   user,
   onChangeConstituency,
   isAdminMode,
-  onToggleAdminMode
+  onToggleAdminMode,
+  onOpenSlides
 }: HeaderProps) {
   const [showProfileMenu, setShowProfileMenu] = React.useState(false);
 
@@ -37,6 +39,16 @@ export default function Header({
 
         {/* Global Admin Switching Controls */}
         <div className="flex items-center gap-2">
+          {/* Pitch Deck Button */}
+          <button
+            id="pitch-deck-toggle"
+            onClick={onOpenSlides}
+            className="flex items-center justify-center p-2 rounded-full bg-indigo-50 text-indigo-600 hover:bg-indigo-100 ring-2 ring-indigo-500/10 transition-all duration-200"
+            title="Open Interactive Pitch Deck"
+          >
+            <Presentation className="w-4 h-4" />
+          </button>
+
           {/* Admin Switcher */}
           <button
             id="admin-mode-toggle"
