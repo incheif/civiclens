@@ -136,19 +136,21 @@ export default function Header({
         </div>
       </div>
 
-      {/* Global Regional Announcement Banner */}
-      <div className="mt-2 flex items-center justify-between bg-indigo-50/50 border border-indigo-100/30 rounded-lg px-2.5 py-1.5 text-xs">
-        <span className="flex items-center gap-1 text-slate-700 font-medium truncate">
-          <MapPin className="w-3.5 h-3.5 text-indigo-500 shrink-0 animate-bounce" />
-          <span className="text-indigo-900 truncate">
-            {isAdminMode ? "Gov Terminal" : "My Constituency"}:{" "}
-            <span className="font-semibold">{user.constituency}</span>
+      {/* Global Regional Announcement Banner (Hidden in Admin Mode) */}
+      {!isAdminMode && (
+        <div className="mt-2 flex items-center justify-between bg-indigo-50/50 border border-indigo-100/30 rounded-lg px-2.5 py-1.5 text-xs">
+          <span className="flex items-center gap-1 text-slate-700 font-medium truncate">
+            <MapPin className="w-3.5 h-3.5 text-indigo-500 shrink-0 animate-bounce" />
+            <span className="text-indigo-900 truncate">
+              My Constituency:{" "}
+              <span className="font-semibold">{user.constituency}</span>
+            </span>
           </span>
-        </span>
-        <span className="text-[10px] font-mono bg-white text-indigo-700 px-1.5 py-0.5 rounded border border-indigo-100 font-semibold shrink-0">
-          TRACK V1.2
-        </span>
-      </div>
+          <span className="text-[10px] font-mono bg-white text-indigo-700 px-1.5 py-0.5 rounded border border-indigo-100 font-semibold shrink-0">
+            TRACK V1.2
+          </span>
+        </div>
+      )}
     </header>
   );
 }
