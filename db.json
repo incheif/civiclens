@@ -1,0 +1,1322 @@
+{
+  "issues": [
+    {
+      "id": "issue-1",
+      "title": "Ruptured high-pressure water main flooding Ring Road underpass",
+      "description": "Water has been gushing out of a primary 400mm main pipe joint on the Ring Road underpass since 4:00 AM, creating a severe gridlock and eroding the pavement foundation.",
+      "constituency": "New Delhi",
+      "isAnonymous": false,
+      "authorName": "Dhruv Gupta",
+      "authorEmail": "guptadhruv959@gmail.com",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=guptadhruv959",
+      "attachment": null,
+      "votes": 42,
+      "votedUserEmails": [
+        "guptadhruv959@gmail.com"
+      ],
+      "funnelState": "Resolved",
+      "department": "Water",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "A major water main break on the New Delhi Ring Road is causing severe street flooding and pavement erosion. Immediate intervention is required.",
+        "tags": [
+          "Water Leak",
+          "Infrastructure",
+          "Urgent"
+        ],
+        "analyzedAt": "2026-07-06T08:00:00.000Z"
+      },
+      "adminReply": "<p><strong>Delhi Jal Board (DJB)</strong> quick response plumbing division was dispatched immediately.</p><ul><li>Main isolation bypass valves successfully closed</li><li>Ruptured high-pressure connection replaced and fully pressure-tested</li><li>Underpass drained completely and pavement foundation stabilized with rapid-cure concrete</li></ul><p>Normal traffic has resumed with zero pressure drops detected across the neighborhood.</p>",
+      "resolvedAt": "2026-07-06T20:00:00.000Z",
+      "resolvedBy": "Office of the Chief Engineer, DJB",
+      "comments": [
+        {
+          "id": "comment-seed-1",
+          "authorName": "Amit Khanna",
+          "authorEmail": "amit.khanna@delhigov.in",
+          "authorAvatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200",
+          "text": "This is a massive relief! The water pressure in our area has stabilized as well. Kudos to the DJB team for their quick turnaround.",
+          "createdAt": "2026-07-06T09:00:00.000Z"
+        },
+        {
+          "id": "comment-seed-2",
+          "authorName": "Priyanka Sen",
+          "authorEmail": "priyanka.sen@eastdelhi.res.in",
+          "authorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200",
+          "text": "Yes, I drove past this morning and the underpass was completely clear. Excellent job with the rapid-cure concrete!",
+          "createdAt": "2026-07-06T11:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-07-06T04:00:00.000Z"
+    },
+    {
+      "id": "issue-2",
+      "title": "Missing pedestrian zebra crossings at Chandni Chowk busy market junction",
+      "description": "The primary road crossing striping has completely faded near the main market square. Children, shoppers, and elderly citizens are struggling to cross safely during busy evening hours because vehicles do not yield.",
+      "constituency": "Chandni Chowk",
+      "isAnonymous": true,
+      "authorName": "Anonymous Resident",
+      "authorEmail": "",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Anonymous",
+      "attachment": null,
+      "votes": 12,
+      "votedUserEmails": [],
+      "funnelState": "Under Consideration",
+      "department": "PWD",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "High pedestrian hazards near Chandni Chowk market due to completely faded zebra crossings. Vehicles are refusing to yield to pedestrians.",
+        "tags": [
+          "Road Safety",
+          "Pedestrians",
+          "Marketplace"
+        ],
+        "analyzedAt": "2026-07-06T15:00:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-06T14:30:00.000Z"
+    },
+    {
+      "id": "issue-3",
+      "title": "Dangling high-voltage electric cables next to Lajpat Nagar market",
+      "description": "Loose high-voltage power lines are hanging dangerously low, touching tree branches right above the crowded pedestrian walking path. With the monsoon rain starting, this poses an extreme risk of electrocution.",
+      "constituency": "South Delhi",
+      "isAnonymous": false,
+      "authorName": "Aditya Sharma",
+      "authorEmail": "aditya.sharma@delhimail.in",
+      "authorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
+      "attachment": null,
+      "votes": 24,
+      "votedUserEmails": [],
+      "funnelState": "Dispatched/In Progress",
+      "department": "Utilities",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "Unsecured high-voltage overhead lines hanging dangerously close to pedestrian walkways present an immediate risk of electrocution.",
+        "tags": [
+          "Electricity",
+          "Public Safety",
+          "Dangling Wires"
+        ],
+        "analyzedAt": "2026-07-07T00:30:00.000Z"
+      },
+      "dispatchedAt": "2026-07-07T01:00:00.000Z",
+      "dispatchedBy": "admin@gov.terminal",
+      "dispatchLog": "Dispatched to Delhi Power Distribution Control Room (BSES Rajdhani) for urgent reinforcement.",
+      "comments": [],
+      "createdAt": "2026-07-07T00:15:00.000Z"
+    },
+    {
+      "id": "issue-4",
+      "title": "Severe garbage dumping pile blocking sidewalks along East Delhi bypass",
+      "description": "Uncontrolled commercial garbage dumping has blocked the entire side path near the bypass road. The decomposition is attracting strays, creating intense stench, and forcing pedestrians to walk on the busy highway.",
+      "constituency": "East Delhi",
+      "isAnonymous": false,
+      "authorName": "Priyanka Sen",
+      "authorEmail": "priyanka.sen@eastdelhi.res.in",
+      "authorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200",
+      "attachment": null,
+      "votes": 3,
+      "votedUserEmails": [],
+      "funnelState": "Recently Raised",
+      "department": "Sanitation",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Large illegal garbage pile on sidewalks blocking pedestrian lanes and creating public health hazards along the East Delhi bypass.",
+        "tags": [
+          "Waste Dumping",
+          "Sanitation",
+          "Sidewalks"
+        ],
+        "analyzedAt": "2026-07-07T02:10:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-07T02:00:00.000Z"
+    },
+    {
+      "id": "issue-5",
+      "title": "Deep hazardous pothole expanding near Dwarka Sector 10 Metro Pillar",
+      "description": "A massive crater-like pothole has opened up directly under the metro line. It is highly invisible at night, causing several near-accidents for two-wheelers already.",
+      "constituency": "West Delhi",
+      "isAnonymous": false,
+      "authorName": "Rajesh Kumar",
+      "authorEmail": "rajesh.k@dwarkamail.com",
+      "authorAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200",
+      "attachment": null,
+      "votes": 4,
+      "votedUserEmails": [],
+      "funnelState": "Recently Raised",
+      "department": "PWD",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "A large expanding pothole directly in the driving lane under Dwarka Metro Pillar poses extreme risk to night commuters.",
+        "tags": [
+          "Potholes",
+          "Road Safety",
+          "Street Repair"
+        ],
+        "analyzedAt": "2026-07-07T03:00:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-07T02:45:00.000Z"
+    },
+    {
+      "id": "issue-6",
+      "title": "A family of monkeys hosting a synchronized general assembly on the power lines",
+      "description": "Spotted this absolute meeting of the minds near New Delhi. They are literally hanging out in an orderly fashion, looking like they're voting on community laws.",
+      "constituency": "New Delhi",
+      "isAnonymous": false,
+      "authorName": "Amit Khanna",
+      "authorEmail": "amit.khanna@delhigov.in",
+      "authorAvatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=200",
+      "attachment": null,
+      "votes": 56,
+      "votedUserEmails": [],
+      "funnelState": "Rejected",
+      "department": "Utilities",
+      "aiTriage": {
+        "triage_status": "Fun",
+        "english_summary": "Local resident shares a humorous photo of a family of monkeys gathered together on overhead power cables in Mumbai.",
+        "tags": [
+          "Wildlife",
+          "Humor",
+          "Community Life"
+        ],
+        "analyzedAt": "2026-07-07T01:30:00.000Z"
+      },
+      "comments": [
+        {
+          "id": "comment-seed-3",
+          "authorName": "Sunita Verma",
+          "authorEmail": "sunita.v@rohinimail.com",
+          "authorAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200",
+          "text": "This is hilarious! Though dangerous for the monkeys, it's nice to see some humor in our daily commute.",
+          "createdAt": "2026-07-07T02:00:00.000Z"
+        },
+        {
+          "id": "comment-seed-4",
+          "authorName": "Aditya Sharma",
+          "authorEmail": "aditya.sharma@delhimail.in",
+          "authorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
+          "text": "Agreed, but hope BSES can check if the insulation is secure so no monkeys get hurt!",
+          "createdAt": "2026-07-07T02:30:00.000Z"
+        }
+      ],
+      "createdAt": "2026-07-07T01:20:00.000Z"
+    },
+    {
+      "id": "issue-7",
+      "title": "Proposal to build an air-conditioned dome covering the entire city of Delhi",
+      "description": "The summer is way too hot. If we construct a giant air-conditioned glass dome over Delhi, we can maintain a cool 22°C year-round. Highly urgent, please pass this budget!",
+      "constituency": "South Delhi",
+      "isAnonymous": true,
+      "authorName": "Anonymous Resident",
+      "authorEmail": "",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Anon2",
+      "attachment": null,
+      "votes": 1,
+      "votedUserEmails": [],
+      "funnelState": "Rejected",
+      "department": "General",
+      "aiTriage": {
+        "triage_status": "Spam",
+        "english_summary": "A highly unrealistic, cost-prohibitive proposal requesting a giant glass dome to air-condition the entirety of Delhi.",
+        "tags": [
+          "Spam",
+          "Humor",
+          "Out of Scope"
+        ],
+        "analyzedAt": "2026-07-07T03:30:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-07T03:25:00.000Z"
+    },
+    {
+      "id": "issue-8",
+      "title": "Dangerous non-functional streetlights on flyover near Rohini Sector 15",
+      "description": "An entire 500m stretch of the flyover is pitch black at night due to broken light fixtures. This has become a hotspot for rash driving and security concerns.",
+      "constituency": "North West Delhi",
+      "isAnonymous": false,
+      "authorName": "Sunita Verma",
+      "authorEmail": "sunita.v@rohinimail.com",
+      "authorAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200",
+      "attachment": null,
+      "votes": 31,
+      "votedUserEmails": [],
+      "funnelState": "Resolved",
+      "department": "Utilities",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "Major safety concerns over a long stretch of dark flyover in Rohini due to complete failure of municipal streetlights.",
+        "tags": [
+          "Street Light",
+          "Road Safety",
+          "North West Delhi"
+        ],
+        "analyzedAt": "2026-07-05T20:00:00.000Z"
+      },
+      "adminReply": "<p><strong>Municipal Corporation of Delhi (MCD)</strong> electrical repair division completed the repair work.</p><ul><li>Replaced 12 failed high-intensity LED cobra-head luminaires</li><li>Replaced damaged underground sub-mains power cable</li><li>Calibrated the automated twilight sensors</li></ul><p>The flyover is now fully lit and secure for night driving.</p>",
+      "resolvedAt": "2026-07-06T10:00:00.000Z",
+      "resolvedBy": "MCD Electrical Division",
+      "comments": [],
+      "createdAt": "2026-07-05T15:00:00.000Z"
+    },
+    {
+      "id": "issue-9",
+      "title": "Chemical dye residue being dumped directly into stormwater drain",
+      "description": "Local illegal washing unit is letting out colorful chemical-ridden waste water straight into the rainwater stormwater drain, causing toxic smell and soil contamination.",
+      "constituency": "North East Delhi",
+      "isAnonymous": false,
+      "authorName": "Vikram Singh",
+      "authorEmail": "vikram.s@northeastdelhi.res.in",
+      "authorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
+      "attachment": null,
+      "votes": 18,
+      "votedUserEmails": [],
+      "funnelState": "Dispatched/In Progress",
+      "department": "Sanitation",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "Hazardous chemical dumping into community storm drains is causing toxic contamination and air pollution.",
+        "tags": [
+          "Water Pollution",
+          "Sanitation",
+          "Industrial Waste"
+        ],
+        "analyzedAt": "2026-07-06T18:00:00.000Z"
+      },
+      "dispatchedAt": "2026-07-06T19:30:00.000Z",
+      "dispatchedBy": "admin@gov.terminal",
+      "dispatchLog": "Dispatched to Delhi Pollution Control Committee (DPCC) for immediate inspection and enforcement.",
+      "comments": [],
+      "createdAt": "2026-07-06T16:00:00.000Z"
+    },
+    {
+      "id": "issue-10",
+      "title": "Persistent water supply contamination with muddy brown sludge in Colaba area",
+      "description": "For the last 5 days, residents of Colaba Sector 3 are receiving dirty, highly turbid water with a foul smell. It's completely unusable for cooking and drinking.",
+      "constituency": "Mumbai South",
+      "isAnonymous": false,
+      "authorName": "Karan Malhotra",
+      "authorEmail": "karan.malhotra@mumbaimail.in",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Karan",
+      "attachment": null,
+      "votes": 35,
+      "votedUserEmails": [],
+      "funnelState": "Recently Raised",
+      "department": "Water",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "Dirty, contaminated muddy water is flowing from domestic taps in Colaba Sector 3, presenting severe public health risks.",
+        "tags": [
+          "Water Contamination",
+          "Public Health",
+          "Colaba"
+        ],
+        "analyzedAt": "2026-07-07T05:00:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-07T04:30:00.000Z"
+    },
+    {
+      "id": "issue-11",
+      "title": "Crudely patched potholes sinking on Marine Drive Promenade walkpath",
+      "description": "The recent patch-up on the pedestrian walking path has already sunk, creating multiple trip hazards for senior citizens who walk here in the mornings.",
+      "constituency": "Mumbai South",
+      "isAnonymous": true,
+      "authorName": "Anonymous Resident",
+      "authorEmail": "",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=AnonMumbai",
+      "attachment": null,
+      "votes": 22,
+      "votedUserEmails": [],
+      "funnelState": "Under Consideration",
+      "department": "PWD",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Sinking asphalt patches on Marine Drive promenade pose tripping risks for morning joggers and elderly citizens.",
+        "tags": [
+          "Potholes",
+          "Marine Drive",
+          "Pedestrian Safety"
+        ],
+        "analyzedAt": "2026-07-07T03:00:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-07T02:00:00.000Z"
+    },
+    {
+      "id": "issue-12",
+      "title": "Damaged electric distribution box with live wires exposed on SV Road, Andheri",
+      "description": "A feeder pillar box has its metal door completely ripped off. Live copper terminals are exposed and active, located right next to a busy bus stop where children wait.",
+      "constituency": "Mumbai North-West",
+      "isAnonymous": false,
+      "authorName": "Rohan Deshmukh",
+      "authorEmail": "rohan.d@mumbailife.com",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Rohan",
+      "attachment": null,
+      "votes": 48,
+      "votedUserEmails": [],
+      "funnelState": "Dispatched/In Progress",
+      "department": "Utilities",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "An open electrical distributor cabinet with live, active terminals exposed right next to a school bus stop presents extreme immediate electrocution hazard.",
+        "tags": [
+          "Exposed Wires",
+          "Electricity Safety",
+          "Andheri"
+        ],
+        "analyzedAt": "2026-07-07T06:10:00.000Z"
+      },
+      "dispatchedAt": "2026-07-07T06:30:00.000Z",
+      "dispatchedBy": "admin@gov.terminal",
+      "dispatchLog": "Forwarded to MSEDCL Andheri West division emergency team with high priority dispatch order.",
+      "comments": [],
+      "createdAt": "2026-07-07T05:45:00.000Z"
+    },
+    {
+      "id": "issue-13",
+      "title": "Overflows from sewage channel spreading onto Baner main commercial road",
+      "description": "A blocked sewage line is bubbling out black water, pooling in front of retail stores. It's creating an awful stench and a severe public health hazard.",
+      "constituency": "Pune",
+      "isAnonymous": false,
+      "authorName": "Anjali Patil",
+      "authorEmail": "anjali.p@punecivic.org",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Anjali",
+      "attachment": null,
+      "votes": 15,
+      "votedUserEmails": [],
+      "funnelState": "Recently Raised",
+      "department": "Sanitation",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Bubbling sewage blockages in Baner commercial street is causing black water pooling, creating a biohazard for shoppers and business owners.",
+        "tags": [
+          "Sewage Overflow",
+          "Drainage",
+          "Sanitation"
+        ],
+        "analyzedAt": "2026-07-07T01:30:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-07T01:10:00.000Z"
+    },
+    {
+      "id": "issue-14",
+      "title": "Broken municipal water valve wasting thousands of liters hourly in Dharampeth",
+      "description": "A major flow regulator valve is leaking a high-pressure stream of water straight into the roadside gutter. No action has been taken since Tuesday.",
+      "constituency": "Nagpur",
+      "isAnonymous": false,
+      "authorName": "Sanjay Joshi",
+      "authorEmail": "sanjay.j@nagpurmail.com",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Sanjay",
+      "attachment": null,
+      "votes": 28,
+      "votedUserEmails": [],
+      "funnelState": "Resolved",
+      "department": "Water",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "A damaged valve joint is causing massive clean water waste into storm drains along Dharampeth Road.",
+        "tags": [
+          "Water Wastage",
+          "Pipe Leak",
+          "Dharampeth"
+        ],
+        "analyzedAt": "2026-07-06T10:00:00.000Z"
+      },
+      "adminReply": "<p><strong>Nagpur Municipal Corporation (NMC)</strong> water maintenance team replaced the gasket and flow gate.</p><ul><li>Sluice valve isolation completed</li><li>Eroded steel seals replaced with high-durability polymer gaskets</li><li>Reinstalled under pressure lock to check for leaks</li></ul><p>The valve is now fully sealed with zero leakage.</p>",
+      "resolvedAt": "2026-07-06T17:00:00.000Z",
+      "resolvedBy": "NMC Water Division",
+      "comments": [],
+      "createdAt": "2026-07-06T08:00:00.000Z"
+    },
+    {
+      "id": "issue-15",
+      "title": "Severe borewell water table depletion and illegal tanker pricing in HSR Layout",
+      "description": "Many houses have dry borewells. Private tankers are exploiting the water crisis by charging triple the official rate. We need tanker regulation or municipal line expansion.",
+      "constituency": "Bengaluru South",
+      "isAnonymous": false,
+      "authorName": "Nikhil Gowda",
+      "authorEmail": "nikhil.g@blrnet.in",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Nikhil",
+      "attachment": null,
+      "votes": 65,
+      "votedUserEmails": [],
+      "funnelState": "Under Consideration",
+      "department": "Water",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Water scarcity and price gouging by private tanker cartels in HSR Layout following dry ground aquifers.",
+        "tags": [
+          "Water Crisis",
+          "Tanker Cartel",
+          "Borewell"
+        ],
+        "analyzedAt": "2026-07-07T02:00:00.000Z"
+      },
+      "comments": [
+        {
+          "id": "comment-seed-5",
+          "authorName": "Meenakshi Sundaram",
+          "authorEmail": "meenakshi@gmail.com",
+          "authorAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200",
+          "text": "Completely agree, they are charging Rs. 2000 per tanker now! BWSSB must intervene.",
+          "createdAt": "2026-07-07T03:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-07-07T01:30:00.000Z"
+    },
+    {
+      "id": "issue-16",
+      "title": "Massive open trench left unfinished after fiber-optic cable laying in Indiranagar",
+      "description": "Telecom contractors dug up 100 meters of the busy 12th Main road sidewalk and left it open with no barricades. Pedestrians have to step onto traffic to bypass it.",
+      "constituency": "Bengaluru Central",
+      "isAnonymous": false,
+      "authorName": "Deepa Rao",
+      "authorEmail": "deepa.rao@indiranagar.org",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Deepa",
+      "attachment": null,
+      "votes": 53,
+      "votedUserEmails": [],
+      "funnelState": "Dispatched/In Progress",
+      "department": "PWD",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "Unrestored pavements and open trenches on Indiranagar 12th Main present dangerous conditions, forcing citizens to walk in busy driving lanes.",
+        "tags": [
+          "Sidewalk Damage",
+          "Trenches",
+          "Road Hazard"
+        ],
+        "analyzedAt": "2026-07-06T12:00:00.000Z"
+      },
+      "dispatchedAt": "2026-07-06T14:00:00.000Z",
+      "dispatchedBy": "admin@gov.terminal",
+      "dispatchLog": "Dispatched to BBMP Chief Engineer (Road Infrastructure) to issue immediate notice to the telecomm service provider.",
+      "comments": [],
+      "createdAt": "2026-07-06T10:00:00.000Z"
+    },
+    {
+      "id": "issue-17",
+      "title": "Unattended compost plant stench choking residents near Hebbal",
+      "description": "The waste processing center is letting out unbearable toxic fumes at night due to poor maintenance of the dry-bio filters. Children are developing respiratory issues.",
+      "constituency": "Bengaluru North",
+      "isAnonymous": false,
+      "authorName": "Kiran Hegde",
+      "authorEmail": "kiran.hegde@blrres.org",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=KiranH",
+      "attachment": null,
+      "votes": 41,
+      "votedUserEmails": [],
+      "funnelState": "Recently Raised",
+      "department": "Sanitation",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Unbearable sour smells from compost facility in Hebbal due to malfunctioning air bio-scrubbers, creating breathing trouble for neighboring citizens.",
+        "tags": [
+          "Air Quality",
+          "Compost Plant",
+          "Stench"
+        ],
+        "analyzedAt": "2026-07-07T04:15:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-07T03:30:00.000Z"
+    },
+    {
+      "id": "issue-18",
+      "title": "Faded solar-powered park lighting system in Kukkarahalli Lake walk",
+      "description": "Almost all solar lamps along the lakeside track have dead batteries and do not light up. Walking in the evening has become unsafe due to absolute darkness.",
+      "constituency": "Mysuru",
+      "isAnonymous": true,
+      "authorName": "Anonymous Resident",
+      "authorEmail": "",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=AnonMysuru",
+      "attachment": null,
+      "votes": 19,
+      "votedUserEmails": [],
+      "funnelState": "Under Consideration",
+      "department": "Utilities",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Complete blackout of solar street lighting on the popular Kukkarahalli Lake walk track, posing safety hazards for evening walkers.",
+        "tags": [
+          "Park Lights",
+          "Solar Energy",
+          "Lake Safety"
+        ],
+        "analyzedAt": "2026-07-07T00:15:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-06T23:00:00.000Z"
+    },
+    {
+      "id": "issue-19",
+      "title": "Low pressure and salt-water intrusion in municipal supply lines at Egmore",
+      "description": "Water pressure has dropped dramatically. Furthermore, the water tastes extremely salty, indicating potential seawater seepage into our drinking water pipeline.",
+      "constituency": "Chennai Central",
+      "isAnonymous": false,
+      "authorName": "Siddharth Raman",
+      "authorEmail": "sid.raman@chennaimail.com",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Sid",
+      "attachment": null,
+      "votes": 34,
+      "votedUserEmails": [],
+      "funnelState": "Dispatched/In Progress",
+      "department": "Water",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "Salinity intrusion and low pressure in Chennai Metro-water conduits around Egmore area, pointing to potential sea or estuarine brackish water ingress.",
+        "tags": [
+          "Water Salinity",
+          "Metro Water",
+          "Chennai"
+        ],
+        "analyzedAt": "2026-07-07T02:00:00.000Z"
+      },
+      "dispatchedAt": "2026-07-07T03:00:00.000Z",
+      "dispatchedBy": "admin@gov.terminal",
+      "dispatchLog": "Dispatched to Chennai Metro Water Supply and Sewerage Board (CMWSSB) lab testing division for chemical sampling.",
+      "comments": [],
+      "createdAt": "2026-07-07T01:30:00.000Z"
+    },
+    {
+      "id": "issue-20",
+      "title": "Extremely uneven concrete slabs on OMR service lanes causing motorbike slips",
+      "description": "The concrete slabs laid over the drainage channels are highly uneven with 3-inch sharp lips. Several two-wheeler riders have lost control and crashed this week.",
+      "constituency": "Chennai South",
+      "isAnonymous": false,
+      "authorName": "Karthik Raja",
+      "authorEmail": "karthik.r@omrresidents.org",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Karthik",
+      "attachment": null,
+      "votes": 26,
+      "votedUserEmails": [],
+      "funnelState": "Under Consideration",
+      "department": "PWD",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "Misaligned pre-cast storm drain covers along the busy IT Corridor service roads are acting as road bumps, crashing motorbikes.",
+        "tags": [
+          "Drain Cover Slabs",
+          "Two Wheeler Safety",
+          "OMR"
+        ],
+        "analyzedAt": "2026-07-07T05:20:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-07T04:45:00.000Z"
+    },
+    {
+      "id": "issue-21",
+      "title": "Huge garbage heap accumulating outside the central vegetable market",
+      "description": "Organic waste, rotten vegetables, and plastic packaging are dumped directly in the public parking zone, blocking space and breeding millions of flies.",
+      "constituency": "Coimbatore",
+      "isAnonymous": false,
+      "authorName": "Vijay Kumar",
+      "authorEmail": "vijay.k@covailive.in",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Vijay",
+      "attachment": null,
+      "votes": 45,
+      "votedUserEmails": [],
+      "funnelState": "Resolved",
+      "department": "Sanitation",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Decomposing green waste and plastic heap in market parking zone blocking passage and breeding vectors.",
+        "tags": [
+          "Market Waste",
+          "Garbage Clear",
+          "Coimbatore"
+        ],
+        "analyzedAt": "2026-07-06T09:00:00.000Z"
+      },
+      "adminReply": "<p><strong>Coimbatore City Municipal Corporation (CCMC)</strong> green waste team cleared the site completely.</p><ul><li>6 metric tons of organic sludge hauled to bio-methanation plant</li><li>Disinfection spray and bleaching powder treatment performed on concrete</li><li>Placed dynamic containment bin to restrict open dumping</li></ul><p>The marketplace loading bay is completely clean and hygienic.</p>",
+      "resolvedAt": "2026-07-06T18:00:00.000Z",
+      "resolvedBy": "CCMC Sanitation Division",
+      "comments": [],
+      "createdAt": "2026-07-06T07:15:00.000Z"
+    },
+    {
+      "id": "issue-22",
+      "title": "Clogged drainage channels causing instant waterlogging in Hazratganj Crossroads",
+      "description": "Even with mild showers, the central shopping avenue becomes a lake because the colonial-era drains are packed with silt and plastic cups. Needs immediate desiltation.",
+      "constituency": "Uttar Pradesh",
+      "isAnonymous": false,
+      "authorName": "Mayank Tiwari",
+      "authorEmail": "mayank.t@lucknowmail.in",
+      "constituency": "Lucknow",
+      "isAnonymous": false,
+      "authorName": "Mayank Tiwari",
+      "authorEmail": "mayank.t@lucknowmail.in",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Mayank",
+      "attachment": null,
+      "votes": 50,
+      "votedUserEmails": [],
+      "funnelState": "Dispatched/In Progress",
+      "department": "Water",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Flooding of core Hazratganj marketplace under moderate precipitation caused by siltation of heritage masonry storm drains.",
+        "tags": [
+          "Drainage Blockage",
+          "Siltation",
+          "Hazratganj"
+        ],
+        "analyzedAt": "2026-07-06T11:00:00.000Z"
+      },
+      "dispatchedAt": "2026-07-06T15:00:00.000Z",
+      "dispatchedBy": "admin@gov.terminal",
+      "dispatchLog": "Dispatched to Lucknow Nagar Nigam (LNN) Drainage and Silt Removal division for emergency vacuum desilting.",
+      "comments": [],
+      "createdAt": "2026-07-06T08:00:00.000Z"
+    },
+    {
+      "id": "issue-23",
+      "title": "Non-clearance of trash bins leading to stray cow feeding hazards at Assi Ghat",
+      "description": "Garbage bins near the entry point are completely overflowing. Stray animals are rummaging through plastic bags, consuming plastic, and blocking tourist pathways.",
+      "constituency": "Varanasi",
+      "isAnonymous": false,
+      "authorName": "Pooja Sharma",
+      "authorEmail": "pooja.s@varanasilive.in",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Pooja",
+      "attachment": null,
+      "votes": 38,
+      "votedUserEmails": [],
+      "funnelState": "Recently Raised",
+      "department": "Sanitation",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Littering and non-clearance of secondary trash bins near Assi Ghat causing stray animals to ingest plastics and block pedestrian thoroughfares.",
+        "tags": [
+          "Temple Waste",
+          "Stray Animal Hazard",
+          "Assi Ghat"
+        ],
+        "analyzedAt": "2026-07-07T05:00:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-07T04:15:00.000Z"
+    },
+    {
+      "id": "issue-24",
+      "title": "Frequent unannounced power cuts and voltage fluctuations in Sector 62",
+      "description": "Frequent power trips (8-10 times daily) are frying domestic appliances. The local sub-station team says the transformer is overloaded but refuses to upgrade it.",
+      "constituency": "Noida",
+      "isAnonymous": false,
+      "authorName": "Arun Saxena",
+      "authorEmail": "arun.saxena@noidahomes.net",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Arun",
+      "attachment": null,
+      "votes": 59,
+      "votedUserEmails": [],
+      "funnelState": "Under Consideration",
+      "department": "Utilities",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Voltage dips and frequent load sheds in Noida Sector 62 indicating over-stressed localized distribution grids and power step-down units.",
+        "tags": [
+          "Voltage Fluctuation",
+          "Load Shedding",
+          "Transformer Overload"
+        ],
+        "analyzedAt": "2026-07-07T01:00:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-07T00:30:00.000Z"
+    },
+    {
+      "id": "issue-25",
+      "title": "Crumbling road bridge structural joints on GT Road near industrial area",
+      "description": "The expansion joints of the old flyover have separated by more than 4 inches. Heavy trucks cause the entire concrete deck to vibrate excessively. Extremely scary!",
+      "constituency": "Kanpur",
+      "isAnonymous": false,
+      "authorName": "Harish Gupta",
+      "authorEmail": "harish.g@kanpurind.com",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Harish",
+      "attachment": null,
+      "votes": 72,
+      "votedUserEmails": [],
+      "funnelState": "Recently Raised",
+      "department": "PWD",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "Severe expansion gap deterioration on old flyover on GT road causing high vibrations under dynamic transit loads. Requires immediate structural verification.",
+        "tags": [
+          "Bridge Joints",
+          "Structural Integrity",
+          "Flyover Crack"
+        ],
+        "analyzedAt": "2026-07-07T06:45:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-07T05:55:00.000Z"
+    },
+    {
+      "id": "issue-26",
+      "title": "Underground sewage mixing with Metro-water supply in Thiruvanmiyur",
+      "description": "Residents are receiving foul-smelling black water from their taps. It is highly contaminated with domestic sewage due to a pipe crack.",
+      "constituency": "Chennai South",
+      "isAnonymous": false,
+      "authorName": "Suresh Krishnan",
+      "authorEmail": "suresh.k@chennaicivic.in",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Suresh",
+      "attachment": null,
+      "votes": 47,
+      "votedUserEmails": [],
+      "funnelState": "Dispatched/In Progress",
+      "department": "Water",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "Cross-contamination between broken sewage main and municipal water line in Thiruvanmiyur, producing high health hazards.",
+        "tags": [
+          "Water Contamination",
+          "Sewage Cross",
+          "Chennai South"
+        ],
+        "analyzedAt": "2026-07-06T20:00:00.000Z"
+      },
+      "dispatchedAt": "2026-07-07T01:00:00.000Z",
+      "dispatchedBy": "admin@gov.terminal",
+      "dispatchLog": "Dispatched to Chennai Metro Water (CMWSSB) South Zone pipeline maintenance division with immediate excavation order.",
+      "comments": [],
+      "createdAt": "2026-07-06T18:30:00.000Z"
+    },
+    {
+      "id": "issue-27",
+      "title": "Massive leakage from raw water pipeline near Katraj Lake bypass",
+      "description": "Hundreds of gallons of clean municipal drinking water are being wasted through a pinhole puncture in the main steel conduit.",
+      "constituency": "Pune",
+      "isAnonymous": false,
+      "authorName": "Tanmay Deshpande",
+      "authorEmail": "tanmay.d@puneit.com",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Tanmay",
+      "attachment": null,
+      "votes": 20,
+      "votedUserEmails": [],
+      "funnelState": "Resolved",
+      "department": "Water",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Water spraying under high pressure from primary steel conduit pipe near Katraj, wasting municipal reserves.",
+        "tags": [
+          "Water Wastage",
+          "Steel Pipeline",
+          "Pune"
+        ],
+        "analyzedAt": "2026-07-06T05:00:00.000Z"
+      },
+      "adminReply": "<p><strong>Pune Municipal Corporation (PMC)</strong> pipeline division welded the puncture joint successfully.</p><ul><li>Completed metal sleeve wrapping</li><li>Under pressure carbon arc welding finalized</li><li>Insulation layer restored around pipeline</li></ul><p>The pressure leak has been fully secured with zero outflow.</p>",
+      "resolvedAt": "2026-07-06T12:00:00.000Z",
+      "resolvedBy": "PMC Engineering Division",
+      "comments": [],
+      "createdAt": "2026-07-06T03:00:00.000Z"
+    },
+    {
+      "id": "issue-28",
+      "title": "Zero municipal water pressure for upper floor flats in Sigra Colony",
+      "description": "The booster pumps at the sub-station have failed, leading to dry pipes for any home on the 1st floor or higher.",
+      "constituency": "Varanasi",
+      "isAnonymous": true,
+      "authorName": "Anonymous Resident",
+      "authorEmail": "",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=AnonVaranasi",
+      "attachment": null,
+      "votes": 18,
+      "votedUserEmails": [],
+      "funnelState": "Under Consideration",
+      "department": "Water",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Sub-station booster pump failure in Sigra water distribution zone, preventing supply elevation.",
+        "tags": [
+          "Low Water Pressure",
+          "Booster Pump",
+          "Varanasi"
+        ],
+        "analyzedAt": "2026-07-06T14:00:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-06T12:00:00.000Z"
+    },
+    {
+      "id": "issue-29",
+      "title": "Hard ground-water TDS levels exceeding 1800 ppm in Sector 137 apartments",
+      "description": "The local filtration unit is non-functional. Drinking water TDS has crossed safe human consumption limits, causing skin irritation and hair fall.",
+      "constituency": "Noida",
+      "isAnonymous": false,
+      "authorName": "Vipul Malhotra",
+      "authorEmail": "vipul.m@noidagroups.in",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Vipul",
+      "attachment": null,
+      "votes": 33,
+      "votedUserEmails": [],
+      "funnelState": "Recently Raised",
+      "department": "Water",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Groundwater filtration systems failing in Sector 137, sending highly basic mineral water into residential networks.",
+        "tags": [
+          "Water Quality",
+          "TDS Levels",
+          "Noida Sector 137"
+        ],
+        "analyzedAt": "2026-07-07T06:10:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-07T05:30:00.000Z"
+    },
+    {
+      "id": "issue-30",
+      "title": "Broken safety railing on Gomti Riverfront walkway near Gomti Nagar",
+      "description": "A 15-foot section of the steel protection rail has collapsed into the river, posing a severe drowning risk to toddlers playing in the park.",
+      "constituency": "Lucknow",
+      "isAnonymous": false,
+      "authorName": "Ritu Mishra",
+      "authorEmail": "ritu.m@lucknowmail.in",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Ritu",
+      "attachment": null,
+      "votes": 29,
+      "votedUserEmails": [],
+      "funnelState": "Resolved",
+      "department": "PWD",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "A damaged shoreline railing segment on the Gomti walking park poses high public safety hazards, especially for children.",
+        "tags": [
+          "Park Safety",
+          "Railing Repair",
+          "Gomti Riverfront"
+        ],
+        "analyzedAt": "2026-07-05T12:00:00.000Z"
+      },
+      "adminReply": "<p><strong>Lucknow Development Authority (LDA)</strong> parks division completed the railing replacement.</p><ul><li>Damaged anchor columns cleared</li><li>Seated 3-inch thick steel replacement rails</li><li>Coated with anti-rust epoxy sealant</li></ul><p>The protection barrier is now fully restored and secure for visitors.</p>",
+      "resolvedAt": "2026-07-06T15:00:00.000Z",
+      "resolvedBy": "LDA Parks Maintenance Division",
+      "comments": [],
+      "createdAt": "2026-07-05T09:00:00.000Z"
+    },
+    {
+      "id": "issue-31",
+      "title": "Faded signboards and missing speed humps near Blind School Crossroads",
+      "description": "Vehicles speed through this blind curve at 70km/h. There are zero cautionary signs or rumble strips, causing multiple close calls for visually impaired students.",
+      "constituency": "Nagpur",
+      "isAnonymous": false,
+      "authorName": "Abhay Deshpande",
+      "authorEmail": "abhay.d@nagpursocial.in",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Abhay",
+      "attachment": null,
+      "votes": 39,
+      "votedUserEmails": [],
+      "funnelState": "Dispatched/In Progress",
+      "department": "PWD",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "Dangerous traffic speeding on curve outside the visually impaired students academy, due to lack of speed breakers and warning banners.",
+        "tags": [
+          "Road Safety",
+          "Speed Breakers",
+          "Blind School"
+        ],
+        "analyzedAt": "2026-07-06T15:00:00.000Z"
+      },
+      "dispatchedAt": "2026-07-06T16:00:00.000Z",
+      "dispatchedBy": "admin@gov.terminal",
+      "dispatchLog": "Dispatched to Nagpur Municipal Traffic Engineering cell to design and place speed humps and reflective signboards.",
+      "comments": [],
+      "createdAt": "2026-07-06T13:00:00.000Z"
+    },
+    {
+      "id": "issue-32",
+      "title": "Severe sidewalk encroachment by commercial displays on Devaraja Urs Road",
+      "description": "Shopkeepers have placed metal mannequins and display boards completely blocking the walking tracks, forcing pedestrians into live traffic.",
+      "constituency": "Mysuru",
+      "isAnonymous": false,
+      "authorName": "Siddharth Naik",
+      "authorEmail": "sid.naik@mysurumail.com",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Siddharth",
+      "attachment": null,
+      "votes": 14,
+      "votedUserEmails": [],
+      "funnelState": "Under Consideration",
+      "department": "PWD",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Illegal retail kiosks and commercial displays fully choking the walkways on Devaraja Urs Road.",
+        "tags": [
+          "Walkway Encroachment",
+          "Retail Encroachment",
+          "Mysuru"
+        ],
+        "analyzedAt": "2026-07-06T20:00:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-06T17:45:00.000Z"
+    },
+    {
+      "id": "issue-33",
+      "title": "Deep asphalt fissures and broken road margins on Outer Ring Road, Manyata Tech Park",
+      "description": "The heavy rainfall has eroded the asphalt layer at the margins, creating a dangerous 6-inch drop-off that catches car tires.",
+      "constituency": "Bengaluru North",
+      "isAnonymous": false,
+      "authorName": "Vikranth Gowda",
+      "authorEmail": "vikranth@manyatares.com",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Vikranth",
+      "attachment": null,
+      "votes": 46,
+      "votedUserEmails": [],
+      "funnelState": "Recently Raised",
+      "department": "PWD",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "Erosion of road shoulder surfaces on Outer Ring Road near Manyata entry, presenting crash risks for fast driving lanes.",
+        "tags": [
+          "Road Margins",
+          "Asphalt Fissures",
+          "Ring Road"
+        ],
+        "analyzedAt": "2026-07-07T05:30:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-07T04:45:00.000Z"
+    },
+    {
+      "id": "issue-34",
+      "title": "Non-functioning streetlights near Central Railway Station taxi stand",
+      "description": "The entire taxi loading bay is pitch dark, creating security concerns for late-night passengers arriving at Chennai Central.",
+      "constituency": "Chennai Central",
+      "isAnonymous": false,
+      "authorName": "Balaji Sundaram",
+      "authorEmail": "balaji.s@chennaicivic.in",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Balaji",
+      "attachment": null,
+      "votes": 37,
+      "votedUserEmails": [],
+      "funnelState": "Resolved",
+      "department": "Utilities",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Major electrical failure on street lighting columns servicing the central railway station transit taxi terminals.",
+        "tags": [
+          "Streetlights",
+          "Transit Security",
+          "Chennai Central"
+        ],
+        "analyzedAt": "2026-07-05T18:00:00.000Z"
+      },
+      "adminReply": "<p><strong>Chennai Corporation</strong> electrical division resolved the circuit fault.</p><ul><li>Completed repair of 150m failed armored electrical underground cabling</li><li>Installed 4 new high-output LED spotlight arrays</li><li>Tightened distribution lugs inside feeder terminal</li></ul><p>The taxi transit lanes are now bright, safe, and fully functional.</p>",
+      "resolvedAt": "2026-07-06T10:00:00.000Z",
+      "resolvedBy": "Chennai Corporation Electrical Dept",
+      "comments": [],
+      "createdAt": "2026-07-05T14:30:00.000Z"
+    },
+    {
+      "id": "issue-35",
+      "title": "Sagging overhead telecom cable bunches blocking bus parking at Jhakarkati",
+      "description": "Low-hanging internet fiber bundles are getting caught in the roofs of state transit buses, snapping cables and disrupting services.",
+      "constituency": "Kanpur",
+      "isAnonymous": false,
+      "authorName": "Ramesh Chawla",
+      "authorEmail": "ramesh.c@kanpurtransit.com",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Ramesh",
+      "attachment": null,
+      "votes": 22,
+      "votedUserEmails": [],
+      "funnelState": "Dispatched/In Progress",
+      "department": "Utilities",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Overhead private internet cables sagging dangerously inside the state bus depot, disrupting bus transit layouts.",
+        "tags": [
+          "Sagging Cables",
+          "Telecom Bunches",
+          "Transit Hazard"
+        ],
+        "analyzedAt": "2026-07-06T16:00:00.000Z"
+      },
+      "dispatchedAt": "2026-07-06T18:00:00.000Z",
+      "dispatchedBy": "admin@gov.terminal",
+      "dispatchLog": "Dispatched to UP Power Corporation Limited (UPPCL) and local telecom regulators to untangle and elevate the cabling.",
+      "comments": [],
+      "createdAt": "2026-07-06T11:00:00.000Z"
+    },
+    {
+      "id": "issue-36",
+      "title": "Sparking transformer unit during hot afternoon peak load hours in Gandhipuram",
+      "description": "The local 250kVA transformer makes loud popping sounds and shoots sparks whenever air conditioners run at peak hours. It's a major fire hazard.",
+      "constituency": "Coimbatore",
+      "isAnonymous": false,
+      "authorName": "Nalini Swamy",
+      "authorEmail": "nalini.s@coimbatorehomes.in",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Nalini",
+      "attachment": null,
+      "votes": 43,
+      "votedUserEmails": [],
+      "funnelState": "Under Consideration",
+      "department": "Utilities",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "Sub-station step down unit overloading and sparking during grid peaks, creating critical electrical fire risks in dense markets.",
+        "tags": [
+          "Transformer Sparks",
+          "Power Overload",
+          "Fire Hazard"
+        ],
+        "analyzedAt": "2026-07-07T00:30:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-06T22:00:00.000Z"
+    },
+    {
+      "id": "issue-37",
+      "title": "Faulty twilight sensors keeping streetlights on all day in Jayanagar 4th Block",
+      "description": "Hundreds of LED streetlights remain lit even in bright noon sunshine. This is a massive waste of taxpayer money and electrical energy.",
+      "constituency": "Bengaluru South",
+      "isAnonymous": false,
+      "authorName": "Rajiv Krishnan",
+      "authorEmail": "rajiv.k@jayanagars.in",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Rajiv",
+      "attachment": null,
+      "votes": 11,
+      "votedUserEmails": [],
+      "funnelState": "Recently Raised",
+      "department": "Utilities",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Automated dusk-to-dawn switches malfunctioning in Jayanagar J Block, keeping lamps on persistently in broad daylight.",
+        "tags": [
+          "Twilight Sensors",
+          "Electricity Waste",
+          "Streetlights"
+        ],
+        "analyzedAt": "2026-07-07T05:00:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-07T04:15:00.000Z"
+    },
+    {
+      "id": "issue-38",
+      "title": "Massive plastic debris clogging Versova Creek outlet and mangrove belt",
+      "description": "Multi-layered heaps of single-use plastics are choked at the creek inlet, stopping natural tidal flows and killing local mangrove plants.",
+      "constituency": "Mumbai North-West",
+      "isAnonymous": false,
+      "authorName": "Afroz Siddiqui",
+      "authorEmail": "afroz.s@versovabeach.org",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Afroz",
+      "attachment": null,
+      "votes": 52,
+      "votedUserEmails": [],
+      "funnelState": "Under Consideration",
+      "department": "Sanitation",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Extensive accumulation of non-biodegradable plastics choking creek ecosystems and preventing mangrove swamp oxygenation.",
+        "tags": [
+          "Plastic Clog",
+          "Mangrove Conservation",
+          "Creek Waste"
+        ],
+        "analyzedAt": "2026-07-06T19:00:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-06T15:00:00.000Z"
+    },
+    {
+      "id": "issue-39",
+      "title": "Medical waste dumped in municipal garbage bins near Chowk market",
+      "description": "Used syringes, intravenous bags, and blood vials are mixed with domestic waste behind the local hospital, presenting severe bio-hazard risks.",
+      "constituency": "Lucknow",
+      "isAnonymous": false,
+      "authorName": "Pradeep Rawat",
+      "authorEmail": "pradeep.r@lucknowmed.com",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Pradeep",
+      "attachment": null,
+      "votes": 61,
+      "votedUserEmails": [],
+      "funnelState": "Dispatched/In Progress",
+      "department": "Sanitation",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "Unsegregated biomedical waste containing active sharps and fluids found in public trash bins, representing high infection vectors.",
+        "tags": [
+          "Biomedical Waste",
+          "Biohazard",
+          "Hospital dumping"
+        ],
+        "analyzedAt": "2026-07-06T18:00:00.000Z"
+      },
+      "dispatchedAt": "2026-07-06T19:30:00.000Z",
+      "dispatchedBy": "admin@gov.terminal",
+      "dispatchLog": "Dispatched to State Pollution Control Board and Health Enforcement squad to levy immediate penalty on defaulting clinic.",
+      "comments": [],
+      "createdAt": "2026-07-06T14:00:00.000Z"
+    },
+    {
+      "id": "issue-40",
+      "title": "Open sewage drain overflowing next to primary school boundary in Sector 50",
+      "description": "The storm drain is clogged with solid waste, causing stagnant sludge to rise and overflow right outside the school gate. The mosquito breeding is insane.",
+      "constituency": "Noida",
+      "isAnonymous": false,
+      "authorName": "Meera Rawat",
+      "authorEmail": "meera.r@noidateachers.org",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Meera",
+      "attachment": null,
+      "votes": 49,
+      "votedUserEmails": [],
+      "funnelState": "Resolved",
+      "department": "Sanitation",
+      "aiTriage": {
+        "triage_status": "Genuine_Urgent",
+        "english_summary": "Standing sewage overflowing outside school gate due to structural silt blockage, creating vector breeding hot-spots.",
+        "tags": [
+          "Open Sewer",
+          "Vector Breeding",
+          "School Security"
+        ],
+        "analyzedAt": "2026-07-05T10:00:00.000Z"
+      },
+      "adminReply": "<p><strong>Noida Authority</strong> sanitation squad completed high-pressure water jetting desiltation.</p><ul><li>Solid plastic blocks and silt removed from 25m drain stretch</li><li>Elevated brick walls by 1.5 feet to seal the drain</li><li>Spread heavy dose of chemical larvicides to eliminate mosquitoes</li></ul><p>The drain is now flowing normally with secure barriers outside the school gates.</p>",
+      "resolvedAt": "2026-07-05T18:00:00.000Z",
+      "resolvedBy": "Noida Authority Public Works",
+      "comments": [],
+      "createdAt": "2026-07-05T06:00:00.000Z"
+    },
+    {
+      "id": "issue-41",
+      "title": "Broken garbage compactor spreading liquid leachate on Connaught Place Circle",
+      "description": "The garbage truck compactor is leaking a toxic, foul-smelling dark liquid right on the main walking plaza, making the entire area smell like a landfill.",
+      "constituency": "New Delhi",
+      "isAnonymous": false,
+      "authorName": "Ramesh Verma",
+      "authorEmail": "ramesh.v@cp traders.in",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Verma",
+      "attachment": null,
+      "votes": 18,
+      "votedUserEmails": [],
+      "funnelState": "Recently Raised",
+      "department": "Sanitation",
+      "aiTriage": {
+        "triage_status": "Genuine_Standard",
+        "english_summary": "Leachate spills from broken container seals of sanitation truck at Connaught Place plaza producing strong smells and slippery walking tiles.",
+        "tags": [
+          "Leachate Leak",
+          "Sanitation Truck",
+          "Connaught Place"
+        ],
+        "analyzedAt": "2026-07-07T05:30:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-07T04:45:00.000Z"
+    },
+    {
+      "id": "issue-42",
+      "title": "Proposal to paint all local administrative offices in bright neon pink",
+      "description": "White and beige are so boring! Neon pink will make municipal offices look incredibly energetic and boost officer productivity by at least 20%. Please implement!",
+      "constituency": "Nagpur",
+      "isAnonymous": false,
+      "authorName": "Chirag Shah",
+      "authorEmail": "chirag.s@creativemind.in",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Chirag",
+      "attachment": null,
+      "votes": 2,
+      "votedUserEmails": [],
+      "funnelState": "Rejected",
+      "department": "General",
+      "aiTriage": {
+        "triage_status": "Spam",
+        "english_summary": "Resident proposes to paint public administration buildings neon pink under the unscientific premise that it boosts productivity.",
+        "tags": [
+          "Aesthetic Proposal",
+          "Rejected Project",
+          "Out of Scope"
+        ],
+        "analyzedAt": "2026-07-07T01:30:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-07T01:15:00.000Z"
+    },
+    {
+      "id": "issue-43",
+      "title": "Local street dog 'Sheru' appointed as chief supervisor of road laying works",
+      "description": "Sheru sits next to the asphalt roller every day, inspecting the concrete and barking at workers if they skip a spot. He deserves an honorary badge!",
+      "constituency": "Pune",
+      "isAnonymous": false,
+      "authorName": "Ketaki Gokhale",
+      "authorEmail": "ketaki@punelove.org",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Sheru",
+      "attachment": null,
+      "votes": 98,
+      "votedUserEmails": [],
+      "funnelState": "Rejected",
+      "department": "General",
+      "aiTriage": {
+        "triage_status": "Fun",
+        "english_summary": "Citizens post humorous report of a stray street dog watching road-roller work, nominating him for municipal supervisor honor.",
+        "tags": [
+          "Community Story",
+          "Humor",
+          "Street Animals"
+        ],
+        "analyzedAt": "2026-07-06T20:00:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-06T18:00:00.000Z"
+    },
+    {
+      "id": "issue-44",
+      "title": "Request to rename Indiranagar 100 Feet Road to 'Filter Coffee Boulevard'",
+      "description": "There are so many cafes serving filter coffee on this road, it's basically the official drink. This will attract tourists and give the area a unique branding!",
+      "constituency": "Bengaluru Central",
+      "isAnonymous": false,
+      "authorName": "Srinivas Rao",
+      "authorEmail": "srini.rao@blrnet.in",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=Srini",
+      "attachment": null,
+      "votes": 14,
+      "votedUserEmails": [],
+      "funnelState": "Rejected",
+      "department": "General",
+      "aiTriage": {
+        "triage_status": "Spam",
+        "english_summary": "Lighthearted petition to rename a major central highway following high concentration of traditional filter coffee shops.",
+        "tags": [
+          "Renaming Request",
+          "Petitions",
+          "Out of Scope"
+        ],
+        "analyzedAt": "2026-07-06T22:00:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-06T20:00:00.000Z"
+    },
+    {
+      "id": "issue-45",
+      "title": "Request to build a flying carpet transit network over the Ganga river",
+      "description": "Traffic in the narrow lanes is very bad. Flying carpets are eco-friendly, zero-emission, and would be a great traditional transport option!",
+      "constituency": "Varanasi",
+      "isAnonymous": true,
+      "authorName": "Anonymous Resident",
+      "authorEmail": "",
+      "authorAvatar": "https://api.dicebear.com/7.x/bottts/svg?seed=AnonGanga",
+      "attachment": null,
+      "votes": 3,
+      "votedUserEmails": [],
+      "funnelState": "Rejected",
+      "department": "General",
+      "aiTriage": {
+        "triage_status": "Spam",
+        "english_summary": "Absurd and fantasy-based transport suggestion requesting flying carpet operations above water bodies to avoid traffic.",
+        "tags": [
+          "Spam",
+          "Fantasy Proposal",
+          "Humor"
+        ],
+        "analyzedAt": "2026-07-06T15:00:00.000Z"
+      },
+      "comments": [],
+      "createdAt": "2026-07-06T14:30:00.000Z"
+    }
+  ]
+}

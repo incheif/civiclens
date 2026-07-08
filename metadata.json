@@ -1,0 +1,6 @@
+{
+  "name": "CivicLens",
+  "description": "A mobile-first Progressive Web App for citizen civic engagement under the People's Priorities governance track.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
