@@ -14,6 +14,116 @@ Whether reporting infrastructure issues, highlighting public service gaps, or vi
 
 ---
 
+## 🗺️ Architectural Diagrams
+
+### 1. Website & System Architecture Flow
+
+This diagram illustrates the full-stack architecture of CivicLens, showing the boundaries between client-side state machine mechanics, the Express server routing layers, and secure persistence/third-party API layers.
+
+```mermaid
+graph TD
+    %% Styling
+    classDef client fill:#e0f2fe,stroke:#0284c7,stroke-width:2px,color:#0369a1;
+    classDef server fill:#fef3c7,stroke:#d97706,stroke-width:2px,color:#b45309;
+    classDef database fill:#f3e8ff,stroke:#7e22ce,stroke-width:2px,color:#6b21a8;
+    classDef external fill:#fee2e2,stroke:#dc2626,stroke-width:2px,color:#991b1b;
+
+    %% Components
+    subgraph Client [Client-Side App / React SPA]
+        Vite[Vite HMR Dev Tool]
+        UI[Tailwind Responsive UI]
+        State[React Context & Optimistic State]
+        VoteBtn[Optimistic Public Upvoting Link]
+        CommentsUI[Interactive Collapsible Comments]
+        AdminConsole[MP Admin Terminal / Recharts Analytics]
+    end
+
+    subgraph Server [Backend App / Node.js & Express]
+        Express[Express Application Engine]
+        APIProxy[Secure API Routes /api/*]
+        StaticServ[Static File Server]
+        AuthGate[Admin Badge ID Verification]
+    end
+
+    subgraph Storage [Persistence Layer]
+        DB[(db.json / File-based Database)]
+    end
+
+    subgraph AI [External Services]
+        Gemini[Google GenAI / Gemini SDK]
+    end
+
+    %% Flows & Connections
+    UI --> State
+    State -->|1. Instant Local State Bump| UI
+    State -->|2. Async HTTP POST /api/priorities/:id/vote| APIProxy
+    VoteBtn --> State
+    CommentsUI -->|HTTP POST /api/priorities/:id/comments| APIProxy
+    AdminConsole -->|HTTP PATCH /api/priorities/:id/resolve| AuthGate
+    AuthGate -->|Validated Admin Action| APIProxy
+    
+    APIProxy -->|Read / Write Transactions| DB
+    APIProxy -->|Fetch AI Triage Insights| Gemini
+    StaticServ -->|Serves Production Assets| UI
+
+    %% Apply Classes
+    class Vite,UI,State,VoteBtn,CommentsUI,AdminConsole client;
+    class Express,APIProxy,StaticServ,AuthGate server;
+    class DB database;
+    class Gemini external;
+```
+
+#### Detailed Flow Narrative:
+1. **The Optimistic UI Upvoting Loop**: When a citizen votes on a local priority, the client-side state instantly increments the count and toggles the active button state (1). Simultaneously, an asynchronous background request is fired to the Express proxy (2). If the request fails, the state gracefully rolls back, protecting user experience.
+2. **Administrative Action Authentication**: When an MP accesses the Admin Terminal, their credentials (such as constituency assignments or badge IDs) are verified. Only verified administrators can post official replies or transition a priority to the `Resolved` state.
+3. **Database Write Safety**: The Node server coordinates reads and writes to `db.json` asynchronously, ensuring state consistency across concurrently active citizens.
+
+---
+
+### 2. Agentic Grievance Triage Pipeline (AI Flow)
+
+When a citizen submits a new civic concern, CivicLens initiates a multi-stage background triage flow utilizing Google GenAI (Gemini) models to translate unformatted human language into highly structured administrative items.
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor Citizen as Citizen
+    participant Client as React Client (State/UI)
+    participant Server as Express Server
+    participant Gemini as Gemini LLM Engine
+    participant DB as db.json Database
+    actor MP as Member of Parliament (Admin)
+
+    Citizen->>Client: Fills Form & Submits Grievance
+    Client->>Server: HTTP POST /api/priorities (Payload)
+    Note over Server: Payload is scrubbed and validated
+    
+    rect rgb(240, 240, 255)
+        Note over Server, Gemini: Server-Side AI Agent Pipeline
+        Server->>Gemini: Request Structured JSON Schema Analysis
+        Note over Gemini: 1. Sentiment & Sincerity Analysis<br/>2. Severity/Urgency Rating<br/>3. Category Mapping (Water, PWD, Sanitation, Utilities)<br/>4. Multi-Step Resolution Action Plan
+        Gemini-->>Server: Return Validated Structured JSON Payload
+    end
+
+    Server->>DB: Append Issue with AI Triage Data
+    DB-->>Server: Write Complete (Atomic)
+    Server-->>Client: HTTP 201 Created (Updated Feed)
+    Client-->>Citizen: Renders Success Alert & Fresh Item Card
+    
+    Note over MP, DB: Real-Time Stream updates for MPs
+    MP->>Server: Accesses MP Admin Terminal
+    Server->>DB: Read Feed (Filtered by MP Constituency)
+    DB-->>Server: Issues list
+    Server-->>MP: Renders Action-Ready Dashboard with AI Action Plans
+```
+
+#### Detailed Agent Triage Mechanics:
+- **Zero Hallucination Parsing**: The Gemini API is constrained with strict system instructions and a rigorous JSON Schema. This ensures that the response always matches the exact `aiTriage` model signature required by TypeScript.
+- **Categorization Guardrails**: Incoming requests are mapped into standardized municipal categories to prevent spam and out-of-scope complaints (such as joke submittals) from cluttering municipal workflows.
+- **Synthesized Resolution Action Plans**: For genuine public concerns, the AI agent crafts custom checklist plans (e.g., specifying isolation valves for water mains or power sensor replacements for broken streetlights) so administrators have a structured, immediate path to resolution.
+
+---
+
 ## ✨ Core Features
 
 ### 1. 📍 Multi-Constituency Stream Triage
